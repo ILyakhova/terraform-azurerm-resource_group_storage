@@ -7,7 +7,7 @@ This module creates a resource group and a storage account in Azure.
 ## Usage
 
 ```hcl
-module "task6" {
+module "resource_group_storage" {
   source = "github.com/ILyakhova/terraform-azurerm-resource_group_storage"
 
   resource_group_name   = "example-rg"
